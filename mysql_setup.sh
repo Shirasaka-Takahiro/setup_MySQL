@@ -24,3 +24,6 @@ ps auxw | grep mysqld
 
 ##get a temporary password
 cat /var/log/mysqld.log | grep "temporary password"
+
+##login as a root user
+mysql -u root -p
